@@ -14,16 +14,13 @@
 	font-family: 'Nothing You Could Do', cursive;
 	font-family: 'Raleway', sans-serif; -->
 
-	</script>
 	<style type="text/css">
-
 		/* FOOTER AND HEADER */
-
 		body 
 		{
-
 			color: #3D3840;
 			margin: 0 auto;
+            font-family: 'Raleway', sans-serif;
 		}
 		.header 
 		{
@@ -41,16 +38,15 @@
 			border-left: 0px;
 			border-right: 0px;
 			text-align: right;
-			font-size: 1.1em;
+			font-size: 1.5em;
 		}
 		.header a
 		{
 			color: black;
 			text-decoration: none;
 			position: relative;
-
+            font-size: 1em;
 		}
-
 		.header i
 		{
 			color: black;
@@ -61,8 +57,8 @@
 		.header img 
 		{
 			float: left;
-			width: 100px;
-			height: 125px;
+			width: 120px;
+			height: 150px;
 			padding-top: 5px;
 			padding-left: 5px;
 		}
@@ -82,9 +78,8 @@
           bottom: 0px;
           background-color: #DDCAE5;
           width: 100%;
-		  font-size: 1em;
+		  font-size: 1.5em;
 		  font-family: 'Raleway', sans-serif;
-		  
         }
         .footer a 
         {
@@ -92,10 +87,14 @@
 			text-decoration: none;
 			position: relative;
         }
-
         /* CONTENT */
-
-
+        
+        
+        .form {
+            font-size: 1.5em;
+            width: 80%;
+        }
+        
 		.billing
 		{
 			font-family: 'Raleway', sans-serif;
@@ -140,81 +139,106 @@
 		.creditcard input
 		{
 			width: 250px;
-
 		}
-
-		.back
-		{
-			float: right;
-			margin-right: 400px;
-			margin-bottom: 
-		}
-		.submit
-		{
-			text-align: center;
-		}
-		.payment
+		
 		.payment 
 		{
 			margin: 0, auto;
 			text-align: center;
 		}
+        
+        
+         #buttons {
+            display: inline-block;
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+        .button1 {
+	       border-radius: 0.3em;
+	       box-shadow: inset 0px 0px 30px 45px #fff, 0px 0px 0px 0px #fff;
+	       color: #ddcae5;
+	       transition: box-shadow 0.2s, color 0.1s 0.25s;
+           padding: 10px 50px; font-size: 20px; text-align: center;
+           float: left; width: 10%;
+           font-family: 'Dancing Script', cursive;
+        }
 
+        .button1:hover {
+	       box-shadow: inset 0px 0px 0px 0px #fff, 0px 0px 20px 10px #fff;
+	       color: #fff;
+        }
 
+        .button2 {
+	       border-radius: 0.3em;
+	       box-shadow: inset 0px 0px 30px 45px #fff, 0px 0px 0px 0px #fff;
+	       color: #ddcae5;
+	       transition: box-shadow 0.2s, color 0.1s 0.25s;
+           padding: 10px 50px;  font-size: 20px; text-align: center;
+           float: left; width: 10%;
+           margin-left: 10%;
+           font-family: 'Dancing Script', cursive;
+        
+        }
+
+        .button2:hover {
+	       box-shadow: inset 0px 0px 0px 0px #fff, 0px 0px 20px 10px #fff;
+	       color: #fff;
+        }
+        
+        
 	</style>
 </head>
+    
+    
 <body>
 
 	<!-- HEADER STUFF -->
-<div class="header">
-<header>
-<img src="logo_01.png" alt="">
+    <div class="header">
+        <header>
+            <img src="./logo.png" alt="logo">
 
-<h1>CHYU LABS</h1>
+            <h1>CHYU LABS</h1>
 
 	<!-- Icons -->
-<i class="fa fa-search"> </i>
-<i class="fa fa-shopping-cart"> </i>
-<i class="fa fa-user"> </i>
+            <i class="fa fa-search"> </i>
+            <i class="fa fa-shopping-cart"> </i>
+            <i class="fa fa-user"> </i>
 
-<nav>
-
-<a href="/home.html"> Home </a> /
-<a href="/casual.html">Casual</a> /
-<a href="/formal.html">Formal</a> /
-<a href="/accessories.html">Accessories</a> / 
-<a href="/topes.html">Tops</a> / 
-<a href="bottoms.html">Bottoms</a>
-</nav> </header>
-</div>
-	<!-- END OF HEADERSTUFF -->
+        <nav>
+        <a href="/home.html"> Home </a> /
+        <a href="./searching_formal.html">Formal</a> /
+        <a href="./searching_casual.html">Casual</a> /
+        <a href="./searching_tops.html">Tops</a> /
+        <a href="./searching_bottoms.html">Bottoms</a> /
+        <a href="./searching_accessaries.html">Accessories</a> / 
+        </nav>
+        </header>  
+    </div>
+	
+    <!-- END OF HEADERSTUFF -->
 	<!-- Feet -->
-<div class="footer"> 
+    <div class="footer"> 
 
-<a href="AboutUs.html"> About us </a> |
-<a href="instagram.com"> <i class="fa fa-instagram"></i> INSTAGRAM </a> | 
-<a href="facebook.com"> <i class="fa fa-facebook"></i>
-FACEBOOK </a> |
-<a href="twitter.com"> <i class="fa fa-twitter"> </i>
-TWITTER</a> | 
-<a href="hotmail.com"> <i class="fa fa-envelope"> </i>
-CONTACT US </a> 
-</div>
+        <a href="AboutUs.html"> About us </a> |
+        <a href="instagram.com"> <i class="fa fa-instagram"></i> INSTAGRAM </a> | 
+        <a href="facebook.com"> <i class="fa fa-facebook"></i>
+            FACEBOOK </a> |
+        <a href="twitter.com"> <i class="fa fa-twitter"> </i>
+            TWITTER</a> | 
+        <a href="hotmail.com"> <i class="fa fa-envelope"> </i>
+            CONTACT US </a> 
+    </div>
 
-<div class="form">
+    <div class="form">
+        <input type="hidden" name="CH_uId" value="3487961">
+        <input type="hidden" name="CH_successPage" value="http://www.yourserver.com/success">
+        <input type="hidden" name="CH_errorPage" value="http://www.yourserver.com/error">
+        <input type="hidden" name="CH_fromName" value="CryptoHeaven Secure Form">
+        <input type="hidden" name="CH_fromEmail" value="my-forms@cryptoheaven.com">
+        <input type="hidden" name="CH_subject" value="Your Site Payment Form">
 
-<input type="hidden" name="CH_uId" value="3487961">
-
-<input type="hidden" name="CH_successPage" value="http://www.yourserver.com/success">
-<input type="hidden" name="CH_errorPage" value="http://www.yourserver.com/error">
-
-
-<input type="hidden" name="CH_fromName" value="CryptoHeaven Secure Form">
-<input type="hidden" name="CH_fromEmail" value="my-forms@cryptoheaven.com">
-<input type="hidden" name="CH_subject" value="Your Site Payment Form">
-
-	<table width=518 border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
-  		<tr bgcolor="FFFFFF"> 
+	<table width=80% border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+  		<tr bgcolor="#e5e5e5"> 
     		<td height="22" colspan="3" align="left" valign="middle"><strong>&nbsp;Billing Information (Required)</strong></td>
   		</tr>
   		<tr> 
@@ -229,164 +253,172 @@ CONTACT US </a>
    			<td height="22" align="right" valign="middle">
    			Last Name:
    			</td>
-    		
     		<td colspan="2" align="left">
     		<input name="lastName" type="text" size="50">
     		</td>
   		</tr>
-
   		<tr> 
     		<td height="22" align="right" valign="middle">
     		Street Address:
     		</td>
     		<td colspan="2" align="left">
     		<input name="address1" type="text" value="" size="50">
-    	</td>
+    	    </td>
   		</tr> 
-  	<tr> 
-    	<td height="22" align="right" valign="middle">
+  	    <tr> 
+    	    <td height="22" align="right" valign="middle">
     		Street Address (2):
-    	</td>
-    	<td colspan="2" align="left">
+    	    </td>
+    	    <td colspan="2" align="left">
     		<input name="address2" type="text" value="" size="50">
-    	</td>
-  	</tr>
-  	<tr> 
-    	<td height="22" align="right" valign="middle">
+    	    </td>
+        </tr>
+  	    <tr> 
+    	    <td height="22" align="right" valign="middle">
     		City:
-    	</td>
-    	<td colspan="2" align="left">
+    	    </td>
+    	    <td colspan="2" align="left">
     		<input name="city" type="text" value="" size="50">
-    	</td>
-  	</tr>
-  	<tr> 
-    	<td height="22" align="right" valign="middle">
+    	    </td>
+  	    </tr>
+  	    <tr> 
+    	    <td height="22" align="right" valign="middle">
     		State/Province:
     		</td>
-    	<td colspan="2" align="left">
+    	    <td colspan="2" align="left">
     		<input name="state" type="text" value="" size="50">
-    	</td>
-  	</tr>
-  	<tr> 
-    	<td height="22" align="right" valign="middle">
+            </td>
+  	    </tr>
+  	    <tr> 
+    	    <td height="22" align="right" valign="middle">
     		Zip/Postal Code:
-    	</td>
-    <td colspan="2" align="left">
+    	    </td>
+            <td colspan="2" align="left">
     		<input name="zip" type="text" value="" size="50">
-    	</td>
-  	</tr>
-  	<tr> 
-    	<td height="22" align="right" valign="middle">
+            </td>
+  	    </tr>
+        <tr> 
+    	    <td height="22" align="right" valign="middle">
     		Country:
     		</td>
-    	<td colspan="2" align="left">
+    	    <td colspan="2" align="left">
     		<input name="country" type="text" value="" size="50">
     		</td>
-  </tr>
-  <tr> 
-    	<td height="22" align="right" valign="middle">
+        </tr>
+        <tr> 
+    	    <td height="22" align="right" valign="middle">
     		Phone:
-    	</td>
-    	<td colspan="2" align="left"><input name="phone" type="text" value="" size="50">
-    	</td>
-  </tr>
-  <tr> 
-    	<td height="22" colspan="3" align="left" valign="middle">
+    	    </td>
+    	    <td colspan="2" align="left"><input name="phone" type="text" value="" size="50">
+    	    </td>
+        </tr>
+        <tr> 
+    	    <td height="22" colspan="3" align="left" valign="middle">
     		&nbsp;
-    	</td>
-  </tr>
-  <tr bgcolor="#E5E5E5"> 
-    	<td height="22" colspan="3" align="left" valign="middle">
+            </td>
+        </tr>
+        
+        
+        <tr bgcolor="#E5E5E5"> 
+    	    <td height="22" colspan="3" align="left" valign="middle">
     		<strong>&nbsp;Credit Card (required)</strong>
-    	</td>
-  </tr>
-  <tr> 
-    	<td height="22" align="right" valign="middle">
+    	    </td>
+        </tr>
+        <tr> 
+    	    <td height="22" align="right" valign="middle">
     		Credit Card Number:
-    	</td>
-    	<td colspan="2" align="left">
+    	    </td>
+    	    <td colspan="2" align="left">
     		<input name="CCNo" type="text" value="" size="19" maxlength="40">
-    	</td>
-  </tr>
-  <tr> 
-    	<td height="22" align="right" valign="middle">
+    	    </td>
+        </tr>
+        <tr> 
+    	    <td height="22" align="right" valign="middle">
     		Expiry Date:
-    	</td>
+    	    </td>
 
-   		 <td colspan="2" align="left">
-      		<SELECT NAME="CCExpiresMonth" >
-        	<OPTION VALUE="" SELECTED>--Month--
-        		<OPTION VALUE="01">January (01)
-        		<OPTION VALUE="02">February (02)
-        		<OPTION VALUE="03">March (03)
-        		<OPTION VALUE="04">April (04)
-        		<OPTION VALUE="05">May (05)
-        		<OPTION VALUE="06">June (06)
-        		<OPTION VALUE="07">July (07)
-        		<OPTION VALUE="08">August (08)
-        		<OPTION VALUE="09">September (09)
-        		<OPTION VALUE="10">October (10)
-        		<OPTION VALUE="11">November (11)
-        		<OPTION VALUE="12">December (12)
-      		</SELECT> /
-     		<SELECT NAME="CCExpiresYear">
-        		<OPTION VALUE="" SELECTED>--Year--
-        		<OPTION VALUE="04">2004
-        		<OPTION VALUE="05">2005
-        		<OPTION VALUE="06">2006
-        		<OPTION VALUE="07">2007
-        		<OPTION VALUE="08">2008
-        		<OPTION VALUE="09">2009
-        		<OPTION VALUE="10">2010
-        		<OPTION VALUE="11">2011
-        		<OPTION VALUE="12">2012
-        		<OPTION VALUE="13">2013
-        		<OPTION VALUE="14">2014
-        		<OPTION VALUE="15">2015
-        		<OPTION VALUE="16">2016
-        		<OPTION VALUE="17">2017
-        		<OPTION VALUE="18">2018
-        		<OPTION VALUE="19">2019
-        		<OPTION VALUE="20">2020
-      		</SELECT>
-    	</td>
-  </tr>
-  <tr> 
-    	<td height="22" colspan="3" align="left" valign="middle">
-    	&nbsp;
-    	</td>
-  </tr>
-  <tr bgcolor="#E5E5E5"> 
-    	<td height="22" colspan="3" align="left" valign="middle">
-    	<strong>&nbsp;Additional Information</strong>
-    	</td>
-  </tr>
-  <tr> 
-    	<td height="22" align="right" valign="middle">
-    	Contact Email:
-    	</td>
-    	<td colspan="2" align="left">
-    	<input name="contactEmail" type="text" value="" size="50">
-    	</td>
-  </tr>
-  <tr> 
-    	<td height="22" colspan="3" align="left" valign="middle">
-    	&nbsp;
-    	</td>
-  </tr>
-  <tr> 
-    	<td height="22" align="right" valign="top">
-    	Special Notes:
-    	</td>
-    	<td colspan="2" align="left">
-    	<textarea name="notes" cols="45" rows="4"></textarea>
-    	</td>
-  </tr>
-</table>
+   		    <td colspan="2" align="left">
+      		    <SELECT NAME="CCExpiresMonth">
+        	       <OPTION VALUE="" SELECTED>--Month--</OPTION>
+        		   <OPTION VALUE="01">January (01)</OPTION>
+        		   <OPTION VALUE="02">February (02)</OPTION>
+        		   <OPTION VALUE="03">March (03)</OPTION>
+        		   <OPTION VALUE="04">April (04)</OPTION>
+        		   <OPTION VALUE="05">May (05)</OPTION>
+        		   <OPTION VALUE="06">June (06)</OPTION>
+                   <OPTION VALUE="07">July (07)</OPTION>
+                   <OPTION VALUE="08">August (08)</OPTION>
+                   <OPTION VALUE="09">September (09)</OPTION>
+                   <OPTION VALUE="10">October (10)</OPTION>
+                   <OPTION VALUE="11">November (11)</OPTION>
+                   <OPTION VALUE="12">December (12)</OPTION>       
+                </SELECT> /
+     		    <SELECT NAME="CCExpiresYear">
+        		    <OPTION VALUE="" SELECTED>--Year--</OPTION>
+        		    <OPTION VALUE="04">2004</OPTION>
+        		    <OPTION VALUE="05">2005</OPTION>
+        		    <OPTION VALUE="06">2006</OPTION>
+        		    <OPTION VALUE="07">2007</OPTION>
+        		    <OPTION VALUE="08">2008</OPTION>
+        		    <OPTION VALUE="09">2009</OPTION>
+        		    <OPTION VALUE="10">2010</OPTION>
+        		    <OPTION VALUE="11">2011</OPTION>
+        		    <OPTION VALUE="12">2012</OPTION>
+        		    <OPTION VALUE="13">2013</OPTION>
+        		    <OPTION VALUE="14">2014</OPTION>
+        		    <OPTION VALUE="15">2015</OPTION>
+        		    <OPTION VALUE="16">2016</OPTION>
+        		    <OPTION VALUE="17">2017</OPTION>
+        		    <OPTION VALUE="18">2018</OPTION>
+        		    <OPTION VALUE="19">2019</OPTION>
+        		    <OPTION VALUE="20">2020</OPTION>
+      		    </SELECT>
+    	   </td>
+        </tr>
+        <tr> 
+    	   <td height="22" colspan="3" align="left" valign="middle">
+    	   &nbsp;
+    	   </td>
+        </tr>
+        
+        
+        <tr bgcolor="#E5E5E5"> 
+    	   <td height="22" colspan="3" align="left" valign="middle">
+    	   <strong>&nbsp;Additional Information</strong>
+    	   </td>
+        </tr>
+        <tr> 
+    	   <td height="22" align="right" valign="middle">
+    	   Contact Email:
+    	   </td>
+    	   <td colspan="2" align="left">
+    	   <input name="contactEmail" type="text" value="" size="50">
+    	   </td>
+        </tr>
+        <tr> 
+    	   <td height="22" colspan="3" align="left" valign="middle">
+    	   &nbsp;
+    	   </td>
+        </tr>
+        <tr> 
+    	   <td height="22" align="right" valign="top">
+    	   Special Notes:
+    	   </td>
+    	   <td colspan="2" align="left">
+    	   <textarea name="notes" cols="45" rows="4"></textarea>
+    	   </td>
+        </tr>
+    </table>
 
-
-	<p>
-
+    <!--
+	<p>ß
 	<input name="Submit" type="submit" value="Send Secure Form &gt;&gt;">
-	</p>
-</form>
+    </p>
+    -->
+    </div><div id="buttons">    
+        <button class="button1">Back</button>
+        <button class="button2">Send</button>
+    </div>
+
+</body>
+</html>

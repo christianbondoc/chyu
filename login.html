@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chyu Lab Online Store</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+   
+    
+    <style type="text/css">
+        @import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do');
+        @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+        @import url('https://fonts.googleapis.com/css?family=Raleway');
+        
+        /* 800px or more */
+      
+        a {
+            color: #3d3840;
+            text-decoration: none;
+        }
+       .header 
+		{
+			background: #DDCAE5;
+			position: relative;
+			top: -20px;
+			font-family: 'Nothing You Could Do', cursive;
+			color: #3D3840;
+			margin: 0 auto;
+			padding: 0 auto;
+			border-color: black;
+			border-style: solid;
+			border-bottom: 5px;
+			border-top: 5px;
+			border-left: 0px;
+			border-right: 0px;
+			text-align: right;
+            font-size: 1.5em;
+		}
+		
+        .header a
+		{
+			color: black;
+			text-decoration: none;
+			position: relative;
+            font-family: 'Raleway', sans-serif;
+            font-size: 1em;
+		}
+		.header i
+		{
+			color: black;
+			text-decoration: none;
+			position: relative;
+			top: -10px;
+		}
+		.header img 
+		{
+			float: left;
+			width: 120px;
+			height: 150px;
+			padding-top: 5px;
+			padding-left: 5px;
+		}
+      
+		.header h1
+		{
+			
+			padding: 0 auto;
+			border: 0 auto;
+			position: relative;
+			right: 2px;
+		}
+        
+        #form-main{
+	width:100%;
+	float:left;
+	padding-top:0px;
+}
+
+#form-div {
+	background-color:#e5e5e5;
+	padding-left:50px;
+	padding-right:50px;
+	padding-top:35px;
+	padding-bottom:50px;
+	width: 450px;
+	float: left;
+	left: 50%;
+	position: absolute;
+    margin-top:30px;
+	margin-left: -260px;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+}
+
+.feedback-input {
+	color:#3c3c3c;
+	font-family: 'Raleway', sans-serif;
+    font-weight:500;
+	font-size: 18px;
+	border-radius: 0;
+	line-height: 22px;
+	background-color: #fbfbfb;
+	padding: 13px 13px 13px 54px;
+	margin-bottom: 10px;
+	width:100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+    border: 3px solid rgba(0,0,0,0);
+}
+
+.feedback-input:focus{
+	background: #fff;
+	box-shadow: 0;
+	border: 3px solid #DDCAE5;
+	color: #DDCAE5;
+	outline: none;
+    padding: 13px 13px 13px 54px;
+}
+
+.focused{
+	color:#DDCAE5;
+	border:#30aed6 solid 3px;
+}
+
+/* Icons ---------------------------------- */
+#name{
+	background-image: url(./username.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#name:focus{
+	background-size: 30px 30px;
+	background-position: 8px 5px;
+    background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#password {
+	background-image: url(./password.png);
+	background-size: 30px 30px;
+	background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+
+#password:focus{
+	background-size: 30px 30px;
+    background-position: 11px 8px;
+	background-repeat: no-repeat;
+}
+        
+#button{
+	font-family: 'Raleway', sans-serif;
+	float:left;
+	width: 100%;
+	border: #fbfbfb solid 4px;
+	cursor: pointer;
+	background-color: #DDCAE5;
+	color:white;
+	font-size:24px;
+	padding-top:22px;
+	padding-bottom:22px;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+
+#button:hover{
+	background-color: rgba(0,0,0,0);
+	color: #DDCAE5;
+}
+	
+.submit:hover {
+	color: #DDCAE5;
+}
+	
+.ease {
+	width: 0px;
+	height: 74px;
+	background-color: #fbfbfb;
+	-webkit-transition: .3s ease;
+	-moz-transition: .3s ease;
+	-o-transition: .3s ease;
+	-ms-transition: .3s ease;
+	transition: .3s ease;
+}
+
+.submit:hover .ease{
+  width:100%;
+  background-color:white;
+}
+
+        #signup {
+            margin-top: 40px;
+            font-family: 'Raleway', sans-serif;
+        }
+        #signup a:hover {
+            color: #DDCAE5;
+        }
+        
+        
+        .footer 
+    	{
+          position: absolute;
+          margin: 0 auto;
+          text-align: center;
+          bottom: 0px;
+          background-color: #DDCAE5;
+          width: 100%;
+		  font-size: 1.5em;
+		  font-family: 'Raleway', sans-serif;
+          clear: both;
+		  
+        }
+        .footer a 
+        {
+			color: black;
+			text-decoration: none;
+        }
+    </style>
+</head>
+        
+<body>
+    <header>
+    <!-- HEADER STUFF -->
+    <div class="header">
+        <img src="logo.png" alt="logo">
+
+    <h1>CHYU LABS</h1>
+
+	<!-- Icons -->
+        <i class="fa fa-search"></i>
+        <i class="fa fa-shopping-cart"></i>
+        <a href="./login.html"><i class="fa fa-user"></i></a>
+
+    <nav>
+        <a href="/home.html"> Home </a> / 
+        <a href="./searching_formal.html">Formal</a> /
+        <a href="./searching_casual.html">Casual</a> /
+        <a href="./searching_tops.html">Tops</a> /
+        <a href="./searching_bottoms.html">Bottoms</a> /
+        <a href="./searching_accessaries.html">Accessories</a> / 
+    </nav>
+    </div>
+	<!-- END OF HEADERSTUFF -->
+    </header>
+    
+   <div id="form-main">
+   <div id="form-div">
+    <form class="form" id="form1">
+      
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="User Name" id="name" />
+      </p>
+      
+      <p class="email">
+        <input name="password" type="password" class="validate[required,custom[password]] feedback-input" id="password" placeholder="password" />
+      </p>
+      
+      <div class="submit">
+        <input type="submit" value="log-in" id="button"/>
+        <div class="ease"></div>
+      </div>
+        
+      <div id="signup">
+        <p>Don't have account yet? <a href="#"> Creat an account.</a></p>
+      </div>
+    </form>
+  </div>
+</div> 
+    
+<footer>
+    <div class="footer"> 
+        <a href="AboutUs.html"> About us </a> |
+        <a href="instagram.com"> <i class="fa fa-instagram"></i> INSTAGRAM </a> | 
+        <a href="facebook.com"> <i class="fa fa-facebook"></i>
+           FACEBOOK </a> |
+        <a href="twitter.com"> <i class="fa fa-twitter"> </i>
+           TWITTER</a> | 
+        <a href="hotmail.com"> <i class="fa fa-envelope"> </i>
+           CONTACT US </a> 
+    </div>
+</footer>
+</body>
+</html>
