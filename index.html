@@ -27,15 +27,11 @@
             color: #3D3840;
             margin: 0 auto;
             padding: 0 auto;
-            border-color: black;
-            border-style: solid;
-            border-bottom: 10px;
-            border-top: 5px;
-            border-left: 0px;
-            border-right: 0px;
+            
             text-align: right;
             font-size: 1.5em;
             top: -33px;
+            width: 100%;
         }
         .header a
         {
@@ -52,13 +48,17 @@
             position: relative;
 
         }
-        .header img 
-        {
-            float: left;
-            width:  4.3%;
-            padding-top: 10px;
-            padding-left: 5px;
-        }
+        
+    .header img 
+		{
+			float: left;
+			width: 120px;
+			height: 150px;
+			padding-top: 5px;
+			padding-left: 5px;
+		}
+      
+    
         .header h1
         {
             font-family: 'Nothing You Could Do', cursive;
@@ -80,7 +80,7 @@
         font-family: 'Raleway', sans-serif;
         clear: both;
         padding-top: 2px;
-          
+        overflow: hidden;  
         }
         .footer a 
         {
@@ -261,6 +261,7 @@
 		justify-content: center;
         font-family: 'Raleway', sans-serif;
         border: 1px solid black;
+        margin-bottom: 40px;
 
 	}
 
@@ -311,8 +312,10 @@
 <h1> Contact Us </h1>
 	
 	<p> Praesent eget ligula erat. In hac habitasse platea dictumst. Donec sit amet tincidunt lorem. Donec dictum odio at massa mollis vestibulum. Aliquam sagittis aliquam lorem. Suspendisse sodales accumsan libero ut sagittis. Curabitur vitae commodo tortor. Nunc pharetra tempor semper. Phasellus pretium dolor ut augue tincidunt imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla tempor augue vitae hendrerit consectetur.</p>
-
+    
+    
 </div> 
+    
 </div>
 
 
@@ -323,20 +326,19 @@
 <h1>CHYU LABS</h1>
 
     <!-- Icons -->
-      <i class="fa fa-search"> </i>
-      <i class="fa fa-shopping-cart"> </i>
-      <i class="fa fa-user"> </i>
+      <a href="./searching_formal.html"><i class="fa fa-search"></i></a>
+      <a href="./cart.html"><i class="fa fa-shopping-cart"></i></a>
+      <a href="./login.html"><i class="fa fa-user"></i></a>
       
-      <nav>
-      
-      <a href="index.html"> Home </a> /
-      <a href="searching_casual.html">Casual</a> /
-      <a href="searching_formal.html">Formal</a> /
-      <a href="searching_accessaries.html">Accessories</a> / 
-      <a href="searching_tops.html">Tops</a> / 
-      <a href="searching_bottoms.html">Bottoms</a>
-
-</nav> </header>
+     <nav>
+        <a href="./index.html"> Home </a> / 
+        <a href="./searching_formal.html">Formal</a> /
+        <a href="./searching_casual.html">Casual</a> /
+        <a href="./searching_tops.html">Tops</a> /
+        <a href="./searching_bottoms.html">Bottoms</a> /
+        <a href="./searching_accessaries.html">Accessories</a> /
+    </nav>
+</header>
 
 <div class="footer"> 
       <nav>
@@ -347,7 +349,6 @@
       <a href="hotmail.com"> <i class="fa fa-envelope"> </i>   CONTACT US </a> 
       </nav>
 </div>
-
 </div>
 
 
