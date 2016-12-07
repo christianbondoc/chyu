@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CHYU - CART</title>
+	
+	<link rel="icon" type="image/png" href="logo_01.png">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Nothing+You+Could+Do|Raleway" rel="stylesheet">
+    <!--Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+	<style type="text/css">
+		body
+        {
+            color: #3D3840;
+            text-align: center;
+            margin: 0 auto;
+          }
+        .header 
+        {
+            background: #DDCAE5;
+            position: relative;
+            font-family: 'Raleway', sans-serif;
+            color: #3D3840;
+            margin: 0 auto;
+            padding: 0 auto;
+            
+            text-align: right;
+            font-size: 1.5em;
+            top: -33px;
+            width: 100%;
+        }
+        .header a
+        {
+            color: black;
+            text-decoration: none;
+            position: relative;
+
+        }
+
+        .header i
+        {
+            color: black;
+            text-decoration: none;
+            position: relative;
+
+        }
+        
+        .header img 
+        {
+            float: left;
+            width: 120px;
+            height: 150px;
+            padding-top: 5px;
+            padding-left: 5px;
+        }
+      
+    
+        .header h1
+        {
+            font-family: 'Nothing You Could Do', cursive;
+            margin-top: 30px;
+            border: 0 auto;
+            position: relative;
+            text-align: right;
+            color: #3D3840;
+        }  
+        .footer 
+        {
+        position: fixed;
+        margin: 0 auto;
+        text-align: center;
+        bottom: 0px;
+        background-color: #DDCAE5;
+        width: 100%;
+        font-size: 1.1em;
+        font-family: 'Raleway', sans-serif;
+        clear: both;
+        padding-top: 2px;
+        overflow: hidden;
+
+        }
+        .footer a 
+        {
+            color: black;
+            text-decoration: none;
+            position: relative;
+        }
+        table 
+        {
+          width: 100%;
+          font-family: 'Raleway', sans-serif;
+        }
+
+        th 
+        {
+          text-align: center;
+          font-size: 25px;
+          width: 25%;
+        }
+
+        td 
+        {
+          width: 25%;
+        }
+        tr
+        {
+           padding-top: 5px;
+        }
+        .verticalLine 
+        {
+        	padding-right: 15px;
+            border-right: thin solid #000000;
+            width: 300px;
+            height: 300px;
+        }
+        .tableHeader
+        {
+        	padding-bottom: 50px;
+        }
+        .whatever{
+        	float:right;
+        }
+		        select {
+            width: 40%;
+        }      
+
+        #button{
+            font-family: 'Raleway', sans-serif;
+            width: 40%;
+            border: #fbfbfb solid 4px;
+            cursor: pointer;
+            background-color: #DDCAE5;
+            color:white;
+            font-size:24px;
+            padding-top:22px;
+            padding-bottom:22px;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+            font-weight:700;
+        }
+
+        #button:hover{
+            background-color: rgba(0,0,0,0);
+            color: #DDCAE5;
+        }
+
+        .submit:hover {
+            color: #DDCAE5;
+        }
+
+        .ease {
+            width: 0px;
+            height: 74px;
+            background-color: #fbfbfb;
+            -webkit-transition: .3s ease;
+            -moz-transition: .3s ease;
+            -o-transition: .3s ease;
+            -ms-transition: .3s ease;
+            transition: .3s ease;
+        }
+
+        .submit {
+            width: 600px;
+            display: inline-block;
+            margin-top: 50px;
+        
+        }
+        
+        .submit:hover .ease{
+          width:100%;
+          background-color:white;
+        }
+
+        #back {
+            margin-top: 40px;
+            font-family: 'Raleway', sans-serif;
+            width: 40%;
+            float: left;
+        }
+        #back a:hover {
+            color: #DDCAE5;
+        }
+        
+        
+        #buy {
+            margin-top: 40px;
+            font-family: 'Raleway', sans-serif;
+            width: 40%;
+            float: right;
+        }
+        #buy a:hover {
+            color: #DDCAE5;
+        }
+	</style>
+
+</head>
+<body>
+
+<div class="header">
+<header>
+<img src="logo_01.png" alt="">
+
+<h1>CHYU LABS</h1>
+
+    <!-- Icons -->
+      <i class="fa fa-search"> </i>
+      <i class="fa fa-shopping-cart"> </i>
+      <i class="fa fa-user"> </i>
+      
+      <nav>
+      
+      <a href="index.html"> Home </a> /
+      <a href="searching_casual.html">Casual</a> /
+      <a href="searching_formal.html">Formal</a> /
+      <a href="searching_accessaries.html">Accessories</a> / 
+      <a href="searching_tops.html">Tops</a> / 
+      <a href="searching_bottoms.html">Bottoms</a>
+
+</nav> </header>
+</div>
+<div class="footer"> 
+      <nav>
+      <a href="AboutUs.html"> About us </a> |
+      <a href="instagram.com"> <i class="fa fa-instagram"></i> INSTAGRAM </a> | 
+      <a href="facebook.com"> <i class="fa fa-facebook"></i>   FACEBOOK </a> |
+      <a href="twitter.com"> <i class="fa fa-twitter"> </i>    TWITTER</a> | 
+      <a href="hotmail.com"> <i class="fa fa-envelope"> </i>   CONTACT US </a> 
+      </nav>
+</div>
+
+     <table>
+       <tr class="tableHeader">
+            <th><h2>	Item		</h2></th>
+            <th><h2>	Description	</h2></th>
+            <th><h2>	Price		</h2></th>
+            <th><h2>	Quantity	</h2></th>
+            <th><h2>	Total		</h2></th>
+       </tr>
+
+
+        <tr>
+             <td><img src="7-1.jpg"  class="verticalLine" alt="deminJacket" /></td>
+             <td>Born out of a love for vintage denim and its Americana roots, cult label Current/Elliott creates timeless denim pieces. Each style is a reworking of an original vintage sample and can be referenced back to a moment in the history of denim. This season sees Current/Elliott's classic boyfriend shapes and skinny jeans refreshed with bold prints in autumnal hues, metallic finishes and worn detailing.</td>
+             <td>$$$$$$</td>
+             <td> <input size="1px" />  
+             </td>
+             <td>Total</td>
+       </tr>
+
+
+        <tr>
+             <td><img src="9-1.jpg" class="verticalLine" /></td>
+             <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, deserunt. Vel facere reiciendis suscipit, quidem asperiores, facilis quis aperiam adipisci, recusandae totam doloribus. Praesentium, maxime quod totam asperiores amet ea!</td>
+             <td>$$$$$$</td>
+             <td>Quantity</td>
+
+       </tr>
+
+
+        <tr>
+             <td><img src="1-1.jpg" class="verticalLine" /></td>
+             <td>100% Silk, pretty and playful. This dress is made from a Japanese-milled fabric that hangs beautifully and has a subtle hint of luster, so it's versatile enough for day or night.</td>
+             <td>$$$$$$</td>
+             <td>Quantity</td>
+
+       </tr>
+        <tr>
+             <td><img src="2-1.jpg" class="verticalLine" /></td>
+             <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, deserunt. Vel facere reiciendis suscipit, quidem asperiores, facilis quis aperiam adipisci, recusandae totam doloribus. Praesentium, maxime quod totam asperiores amet ea!</td>
+             <td>$$$$$$</td>
+             <td>Quantity</td>
+
+       </tr>
+
+       <tr>
+             <td><img src="3-1.jpg" class="verticalLine" /></td>
+             <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, deserunt. Vel facere reiciendis suscipit, quidem asperiores, facilis quis aperiam adipisci, recusandae totam doloribus. Praesentium, maxime quod totam asperiores amet ea!</td>
+             <td>$$$$$$</td>
+             <td>Quantity</td>
+
+       </tr>
+
+       <tr>
+             <td><img src="4-1.jpg" class="verticalLine" /></td>
+             <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, deserunt. Vel facere reiciendis suscipit, quidem asperiores, facilis quis aperiam adipisci, recusandae totam doloribus. Praesentium, maxime quod totam asperiores amet ea!</td>
+             <td>$$$$$$</td>
+             <td>Quantity</td>
+
+       </tr>
+
+       <tr>
+             <td><img src="6-1.jpg" class="verticalLine" /></td>
+             <td>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem, deserunt. Vel facere reiciendis suscipit, quidem asperiores, facilis quis aperiam adipisci, recusandae totam doloribus. Praesentium, maxime quod totam asperiores amet ea!</td>
+             <td>$$$$$$</td>
+             <td>Quantity</td>
+
+       </tr>
+
+       
+
+    </table>
+
+ <br>
+
+<table>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th>Total</th>
+</table><hr>
+<br><br><br>
+
+    <div class="submit">
+        <a href="./searching_formal.html"><input type="submit" value="Back" id="button"/></a>
+        <a href="./payment.html"><input type="submit" value="Confirm" id="button"/></a>
+        <div class="ease"></div>
+
+    </div>
+
+<br>
+
+</body>
+</html>
