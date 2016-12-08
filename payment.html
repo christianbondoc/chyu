@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Chyu - Payment</title>
-
+  <link rel="icon" type="image/png" href="logo_01.png">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Nothing+You+Could+Do|Raleway" rel="stylesheet">
     <!--Font Awesome -->
@@ -37,10 +37,10 @@
             color: black;
             text-decoration: none;
             position: relative;
-
+            top: -10px;
         }
         
-    .header img 
+      .header img 
     {
       float: left;
       width: 120px;
@@ -59,11 +59,6 @@
             text-align: right;
             color: #3D3840;
         }  
-        .header.sticky {
-          background: #555555;
-          box-shadow: 0 3px 5px rgba(0,0,0,0.3);
-        }
-
         .footer 
         {
         position: fixed;
@@ -75,7 +70,8 @@
         font-size: 1.1em;
         font-family: 'Raleway', sans-serif;
         clear: both;
-          
+        padding-top: 2px;
+        overflow: hidden;  
         }
         .footer a 
         {
@@ -364,36 +360,29 @@ $(window).on("scroll", function () {
 </head>
 <body>
 <div class="header">
-  
 <header>
+<a href="./index.html">
 <img src="logo_01.png" alt="">
+</a>
 
 <h1>CHYU LABS</h1>
 
     <!-- Icons -->
-      <i class="fa fa-search"> </i>
-      <i class="fa fa-shopping-cart"> </i>
-      <i class="fa fa-user"> </i>
+      <a href="./searching_formal.html"><i class="fa fa-search"></i></a>
+      <a href="./cart.html"><i class="fa fa-shopping-cart"></i></a>
+      <a href="./login.html"><i class="fa fa-user"></i></a>
       
-      <nav>
-      
-      <a href="/index.html"> Home </a> /
-      <a href="/casual.html">Casual</a> /
-      <a href="/formal.html">Formal</a> /
-      <a href="/accessories.html">Accessories</a> / 
-      <a href="/topes.html">Tops</a> / 
-      <a href="bottoms.html">Bottoms</a>
-</nav> </header>
-
-<div class="footer"> 
-      <nav>
-      <a href="AboutUs.html"> About us </a> |
-      <a href="instagram.com"> <i class="fa fa-instagram"></i> INSTAGRAM </a> | 
-      <a href="facebook.com"> <i class="fa fa-facebook"></i>   FACEBOOK </a> |
-      <a href="twitter.com"> <i class="fa fa-twitter"> </i>    TWITTER</a> | 
-      <a href="hotmail.com"> <i class="fa fa-envelope"> </i>   CONTACT US </a> 
-      </nav>
+     <nav>
+        <a href="./index.html"> Home </a> / 
+        <a href="./searching_formal.html">Formal</a> /
+        <a href="./searching_casual.html">Casual</a> /
+        <a href="./searching_tops.html">Tops</a> /
+        <a href="./searching_bottoms.html">Bottoms</a> /
+        <a href="./searching_accessaries.html">Accessories</a> 
+    </nav>
+</header>
 </div>
+
 
 </div>
 
@@ -595,14 +584,14 @@ $(window).on("scroll", function () {
             </select> 
             <select NAME="CCExpiresYear">
                 <option value="">       Year     </option>
-                <option value="04">     16         </option>
-                <option value="05">     17         </option>
-                <option value="06">     18         </option>
-                <option value="07">     19         </option>
-                <option value="08">     20         </option>
-                <option value="09">     21         </option>
-                <option value="10">     22         </option>
-                <option value="11">     23         </option>
+                <option value="04">     2016         </option>
+                <option value="05">     2017         </option>
+                <option value="06">     2018         </option>
+                <option value="07">     2019         </option>
+                <option value="08">     2020         </option>
+                <option value="09">     2021         </option>
+                <option value="10">     2022         </option>
+                <option value="11">     2023         </option>
             </select> 
         </div>
 
@@ -615,6 +604,14 @@ $(window).on("scroll", function () {
 
     </div>
 
-
+<div class="footer"> 
+      <nav>
+      <a href="AboutUs.html"> About us </a> |
+      <a href="instagram.com"> <i class="fa fa-instagram"></i> INSTAGRAM </a> | 
+      <a href="facebook.com"> <i class="fa fa-facebook"></i>   FACEBOOK </a> |
+      <a href="twitter.com"> <i class="fa fa-twitter"> </i>    TWITTER</a> | 
+      <a href="hotmail.com"> <i class="fa fa-envelope"> </i>   CONTACT US </a> 
+      </nav>
+</div>
   </body>
   </html> 

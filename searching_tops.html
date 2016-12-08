@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Chyu Lab Online Store</title>
+    <title>Chyu - Tops</title>
+    <link rel="icon" type="image/png" href="logo_01.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
    
     
@@ -16,54 +17,77 @@
             color: #3d3840;
             text-decoration: none;
         }
-       .header 
-		{
-			background: #DDCAE5;
-			position: relative;
-			top: -20px;
-			font-family: 'Nothing You Could Do', cursive;
-			color: #3D3840;
-			margin: 0 auto;
-			padding: 0 auto;
-			text-align: right;
+        .header 
+        {
+            background: #DDCAE5;
+            position: relative;
+            font-family: 'nothing you could do', cursive;
+            color: #3D3840;
+            margin: 0 auto;
+            padding: 0 auto;
+            
+            text-align: right;
             font-size: 1.5em;
-		}
-		
+            top: -33px;
+            width: 100%;
+        }
         .header a
-		{
-			color: black;
-			text-decoration: none;
-			position: relative;
+        {
+            color: black;
+            text-decoration: none;
+            position: relative;
             font-family: 'Raleway', sans-serif;
             font-size: 1em;
-		}
-		.header i
-		{
-			color: black;
-			text-decoration: none;
-			position: relative;
-			top: -10px;
-		}
-		.header img 
-		{
-			float: left;
-			width: 120px;
-			height: 150px;
-			padding-top: 5px;
-			padding-left: 5px;
-		}
+        }
+        .header i
+        {
+            color: black;
+            text-decoration: none;
+            position: relative;
+            top: -10px;
+        }
+        
+        .header img 
+        {
+            float: left;
+            width: 120px;
+            height: 150px;
+            padding-top: 5px;
+            padding-left: 5px;
+        }
       
-		.header h1
-		{
-			
-			padding: 0 auto;
-			border: 0 auto;
-			position: relative;
-			right: 2px;
-		}
+    
+        .header h1
+        {
+            font-family: 'Nothing You Could Do', cursive;
+            margin-top: 30px;
+            border: 0 auto;
+            position: relative;
+            text-align: right;
+            color: #3D3840;
+        } 
         
-        
-        
+                .footer 
+        {
+        position: fixed;
+        margin: 0 auto;
+        text-align: center;
+        bottom: 0px;
+        background-color: #DDCAE5;
+        width: 100%;
+        font-size: 1.1em;
+        font-family: 'Raleway', sans-serif;
+        clear: both;
+        padding-top: 2px;
+        overflow: hidden;  
+        }
+        .footer a 
+        {
+            color: black;
+            text-decoration: none;
+            position: relative;
+        }
+
         
         #catalog {
             width: 20%;
@@ -103,24 +127,7 @@
             text-decoration: none;
         }
         
-       .footer 
-    	{
-          position: relative;
-          margin: 0 auto;
-          text-align: center;
-          bottom: 0px;
-          background-color: #DDCAE5;
-          width: 100%;
-		  font-size: 1.5em;
-		  font-family: 'Raleway', sans-serif;
-		  
-        }
-        .footer a 
-        {
-			color: black;
-			text-decoration: none;
-			position: relative;
-        }
+
 
     </style>
     
@@ -129,7 +136,9 @@
     <header>
     <!-- HEADER STUFF -->
     <div class="header">
-        <img src="logo.png" alt="logo">
+<a href="./index.html">
+<img src="logo_01.png" alt="">
+</a>
 
     <h1>CHYU LABS</h1>
 
@@ -142,9 +151,9 @@
         <a href="./index.html">Home</a> / 
         <a href="./searching_formal.html">Formal</a> /
         <a href="./searching_casual.html">Casual</a> /
-        <a href="./searching_tops.html">Tops</a> /
+        <strong><a href="./searching_tops.html">Tops</a></strong> /
         <a href="./searching_bottoms.html">Bottoms</a> /
-        <a href="./searching_accessaries.html">Accessories</a> /
+        <a href="./searching_accessaries.html">Accessories</a> 
     </nav>
     </div>
 	<!-- END OF HEADERSTUFF -->
@@ -153,12 +162,12 @@
     
     <div id="catalog">
         <a href="./searching_formal.html">Formal</a><br>
-        <a href="./searching_tops.html">Tops</a><br>
+        <strong><a href="./searching_tops.html">Tops</a></strong><br>
         <a href="./searching_bottoms.html">Bottoms</a><br>
         <a href="./searching_accessaries.html">Accessories</a><br>
         <br>
         <a href="./searching_casual.html">Casual</a><br>
-        <a href="./searching_tops.html">Tops</a><br>
+        <strong><a href="./searching_tops.html">Tops</a></strong><br>
         <a href="./searching_bottoms.html">Bottoms</a><br>
         <a href="./searching_accessaries.html">Accessories</a><br>
     </div>
@@ -181,16 +190,16 @@
             </p>
         </div>
     </div>
-    <footer>
-        <div class="footer"> 
-        <a href="AboutUs.html"> About us </a> |
-        <a href="instagram.com"> <i class="fa fa-instagram"></i> INSTAGRAM </a> | 
-        <a href="facebook.com"> <i class="fa fa-facebook"></i>
-           FACEBOOK </a> |
-        <a href="twitter.com"> <i class="fa fa-twitter"> </i>
-           TWITTER</a> | 
-        <a href="hotmail.com"> <i class="fa fa-envelope"> </i>
-           CONTACT US </a> 
-    </div>
+
+    <br><br>
+  <div class="footer"> 
+      <nav>
+      <a href="AboutUs.html"> About us </a> |
+      <a href="instagram.com"> <i class="fa fa-instagram"></i> INSTAGRAM </a> | 
+      <a href="facebook.com"> <i class="fa fa-facebook"></i>   FACEBOOK </a> |
+      <a href="twitter.com"> <i class="fa fa-twitter"> </i>    TWITTER</a> | 
+      <a href="hotmail.com"> <i class="fa fa-envelope"> </i>   CONTACT US </a> 
+      </nav>
+</div>
     </footer>
 </body>

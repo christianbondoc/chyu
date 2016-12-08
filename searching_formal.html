@@ -2,7 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Chyu Lab Online Store</title>
+    <title>Chyu - Formal</title>
+    <link rel="icon" type="image/png" href="logo_01.png">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
    
     
@@ -106,23 +107,25 @@
             text-decoration: none;
         }
         
-       .footer 
-    	{
-          position: relative;
-          margin: 0 auto;
-          text-align: center;
-          bottom: 0px;
-          background-color: #DDCAE5;
-          width: 100%;
-		  font-size: 1.5em;
-		  font-family: 'Raleway', sans-serif;
-		  
+        .footer 
+        {
+        position: fixed;
+        margin: 0 auto;
+        text-align: center;
+        bottom: 0px;
+        background-color: #DDCAE5;
+        width: 100%;
+        font-size: 1.1em;
+        font-family: 'Raleway', sans-serif;
+        clear: both;
+        padding-top: 2px;
+        overflow: hidden;  
         }
         .footer a 
         {
-			color: black;
-			text-decoration: none;
-			position: relative;
+            color: black;
+            text-decoration: none;
+            position: relative;
         }
 
     </style>
@@ -131,8 +134,11 @@
 <body>
     <header>
     <!-- HEADER STUFF -->
-    <div class="header">
-        <img src="logo.png" alt="logo">
+<div class="header">
+<header>
+<a href="./index.html">
+<img src="logo_01.png" alt="">
+</a>
 
     <h1>CHYU LABS</h1>
 
@@ -143,11 +149,11 @@
 
     <nav>
         <a href="./index.html">Home</a> / 
-        <a href="./searching_formal.html">Formal</a> /
+        <strong><a href="./searching_formal.html">Formal</a></strong> /
         <a href="./searching_casual.html">Casual</a> /
         <a href="./searching_tops.html">Tops</a> /
         <a href="./searching_bottoms.html">Bottoms</a> /
-        <a href="./searching_accessaries.html">Accessories</a> / 
+        <a href="./searching_accessaries.html">Accessories</a>
     </nav>
     </div>
 	<!-- END OF HEADERSTUFF -->
@@ -155,7 +161,7 @@
     
     
     <div id="catalog">
-        <a href="./searching_formal.html">Formal</a><br>
+        <strong><a href="./searching_formal.html">Formal</a></strong><br>
         <a href="./searching_tops.html">Tops</a><br>
         <a href="./searching_bottoms.html">Bottoms</a><br>
         <a href="./searching_accessaries.html">Accessories</a><br>
@@ -184,6 +190,8 @@
             </p>
         </div>
     </div>
+
+    <br><br><br>
     <footer>
         <div class="footer"> 
         <a href="AboutUs.html"> About us </a> |
