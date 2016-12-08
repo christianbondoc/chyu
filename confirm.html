@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Chyu - Confirmation</title>
+  <link rel="icon" type="image/png" href="logo_01.png">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Nothing+You+Could+Do|Raleway" rel="stylesheet">
+    <!--Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<style type="text/css">
+
+        .header 
+        {
+            background: #DDCAE5;
+            position: relative;
+            font-family: 'Raleway', sans-serif;
+            color: #3D3840;
+            margin: 0 auto;
+            padding: 0 auto;
+            
+            text-align: right;
+            font-size: 1.5em;
+            top: -33px;
+            width: 100%;
+        }
+        .header a
+        {
+            color: black;
+            text-decoration: none;
+            position: relative;
+
+        }
+
+        .header i
+        {
+            color: black;
+            text-decoration: none;
+            position: relative;
+            top: -10px;
+        }
+        
+      .header img 
+    {
+      float: left;
+      width: 120px;
+      height: 150px;
+      padding-top: 5px;
+      padding-left: 5px;
+    }
+      
+    
+        .header h1
+        {
+            font-family: 'Nothing You Could Do', cursive;
+            margin-top: 30px;
+            border: 0 auto;
+            position: relative;
+            text-align: right;
+            color: #3D3840;
+        }  
+        .footer 
+        {
+        position: fixed;
+        margin: 0 auto;
+        text-align: center;
+        bottom: 0px;
+        background-color: #DDCAE5;
+        width: 100%;
+        font-size: 1.1em;
+        font-family: 'Raleway', sans-serif;
+        clear: both;
+        padding-top: 2px;
+        overflow: hidden;  
+        }
+        .footer a 
+        {
+            color: black;
+            text-decoration: none;
+            position: relative;
+        }
+
+        body
+        {
+            color: #3D3840;
+            text-align: center;
+            margin: 0 auto;
+          }
+
+
+        .wrap{
+          background-color: #ffffff;
+          
+          -moz-box-shadow: 0px 0px 25px #000000;
+          -webkit-box-shadow: 0px 0px 25px #000000;
+          box-shadow: 0px 0px 25px #000000;
+          
+          -moz-border-radius: 3px;
+          -webkit-border-radius: 3px;
+          border-radius: 3px;
+          
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          
+          margin: 0px auto;
+          padding: 30px 20px;
+          overflow: auto;
+          width: 640px;
+        }
+        
+        .shipping{
+          float: left;
+          text-align: center;
+          width: 300px;
+        }
+        .billing{
+          float: left;
+          text-align: center;
+          width: 300px;
+        }
+        
+        h1{
+          color: #DDCAE5;
+          font-family: 'Raleway', sans-serif;
+          text-align: center;
+
+        }
+        h2{
+          color: #DDCAE5;
+          font-family: 'Raleway', sans-serif;
+          margin: 0px 0px 0px 15px;
+          padding: 0px;
+
+          text-align: center;
+        }
+        h3 
+        {
+          color: #DDCAE5;
+          font-family: 'Raleway', sans-serif;
+          margin: 0px 0px 10px 15px;
+          padding: 0px;
+
+        }
+        p
+        {
+          color: #3D3840;
+          font-family: 'Raleway', sans-serif;
+        }
+        
+        input{
+          background-color: #f2f2f2;
+          border: 1px solid #c8c8c8;
+          font-family: 'Oxygen', sans-serif;
+          
+          -moz-border-radius: 2px;
+          -webkit-border-radius: 2px;
+          border-radius: 2px;
+          
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          
+          margin: 0px 0px 10px 0px;
+          padding: 8px;
+          width: 90%;
+        }
+        select{
+          background-color: #f2f2f2;
+          border: 1px solid #c8c8c8;
+          font-family: 'Oxygen', sans-serif;
+          
+          -moz-border-radius: 2px;
+          -webkit-border-radius: 2px;
+          border-radius: 2px;
+          
+          -moz-box-sizing: border-box;
+          -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+          
+          margin: 0px 0px 10px 0px;
+          padding: 8px;
+          width: 90%;
+        }
+        .checkBox{
+          clear: left;
+          float: left;
+          height: 13px;
+          margin: 13px 0px 0px 15px;
+          width: 13px;
+        }
+        .checkBoxText{
+          float: left;
+          margin: 10px 0px 10px 15px;
+          padding: 0px;
+        }
+
+
+        }
+
+        select {
+            width: 40%;
+        }      
+
+        #button{
+            font-family: 'Raleway', sans-serif;
+            width: 40%;
+            border: #fbfbfb solid 4px;
+            cursor: pointer;
+            background-color: #DDCAE5;
+            color:white;
+            font-size:24px;
+            padding-top:22px;
+            padding-bottom:22px;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+            font-weight:700;
+        }
+
+        #button:hover{
+            background-color: rgba(0,0,0,0);
+            color: #DDCAE5;
+        }
+
+        .submit:hover {
+            color: #DDCAE5;
+        }
+
+        .ease {
+            width: 0px;
+            height: 74px;
+            background-color: #fbfbfb;
+            -webkit-transition: .3s ease;
+            -moz-transition: .3s ease;
+            -o-transition: .3s ease;
+            -ms-transition: .3s ease;
+            transition: .3s ease;
+        }
+
+        .submit {
+            width: 600px;
+            display: inline-block;
+            margin-top: 50px;
+        
+        }
+        
+        .submit:hover .ease{
+          width:100%;
+          background-color:white;
+        }
+
+        #back {
+            margin-top: 40px;
+            font-family: 'Raleway', sans-serif;
+            width: 40%;
+            float: left;
+        }
+        #back a:hover {
+            color: #DDCAE5;
+        }
+        
+        
+        #buy {
+            margin-top: 40px;
+            font-family: 'Raleway', sans-serif;
+            width: 40%;
+            float: right;
+        }
+        #buy a:hover {
+            color: #DDCAE5;
+        }
+
+        #ccSelect select
+        {
+          width: 25%;
+        }
+        #ccSelect #ccvNumber .ccvNumber
+        {
+          width: 10%;
+        }
+
+</style>
+
+</head>
+<body>
+<div class="header">
+<header>
+<a href="./index.html">
+<img src="logo_01.png" alt="">
+</a>
+
+<h1>CHYU LABS</h1>
+
+    <!-- Icons -->
+      <a href="./searching_formal.html"><i class="fa fa-search"></i></a>
+      <a href="./cart.html"><i class="fa fa-shopping-cart"></i></a>
+      <a href="./login.html"><i class="fa fa-user"></i></a>
+      
+     <nav>
+        <a href="./index.html"> Home </a> / 
+        <a href="./searching_formal.html">Formal</a> /
+        <a href="./searching_casual.html">Casual</a> /
+        <a href="./searching_tops.html">Tops</a> /
+        <a href="./searching_bottoms.html">Bottoms</a> /
+        <a href="./searching_accessaries.html">Accessories</a> 
+    </nav>
+</header>
+</div>
+
+
+</div>
+
+
+<br>
+
+  <div class="wrap">
+   
+   <h2> Thank you for shopping at </h2>
+   <h1> CHYU </h1>
+
+
+</div> 
+    <div class="submit">
+        <a href="./index.html"><input type="submit" value="Home" id="button"/></a>
+
+        <div class="ease"></div>
+
+    </div>
+
+<div class="footer"> 
+      <nav>
+      <a href="AboutUs.html"> About us </a> |
+      <a href="instagram.com"> <i class="fa fa-instagram"></i> INSTAGRAM </a> | 
+      <a href="facebook.com"> <i class="fa fa-facebook"></i>   FACEBOOK </a> |
+      <a href="twitter.com"> <i class="fa fa-twitter"> </i>    TWITTER</a> | 
+      <a href="hotmail.com"> <i class="fa fa-envelope"> </i>   CONTACT US </a> 
+      </nav>
+</div>
+  </body>
+  </html> 
