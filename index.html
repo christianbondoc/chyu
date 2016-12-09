@@ -28,18 +28,20 @@
             color: #3D3840;
             margin: 0 auto;
             padding: 0 auto;
-            
             text-align: right;
             font-size: 1.5em;
             top: -33px;
-            width: 100%;
+            width: 100% !important;
         }
         .header a
         {
             color: black;
             text-decoration: none;
             position: relative;
-
+        }
+        .header a:hover
+        {
+        	color: white;
         }
 
         .header i
@@ -89,6 +91,11 @@
             text-decoration: none;
             position: relative;
         }
+        .footer a:hover
+        {
+        	color: white;
+        	font-weight: bold;
+        }
 
 
 
@@ -116,7 +123,7 @@
 	{
 		width:100%;
 		padding:1px 0;
-		margin-top: 50px;
+
 		text-align: center;
 		color: #3D3840;
 	}
@@ -185,6 +192,7 @@
 	   		 -moz-transition: opacity 0.6s;
 	   		 transition: opacity 0.6s;
        		vertical-align:middle;
+       		color: #DDCAE5;
 
 	}
 
@@ -207,16 +215,16 @@
 	}
 
 	.galleryBOX {
-     		width:49.9%;
-     		height:49.9%;
+     		width:49.5%;
+     		height:15%;
      		position: relative;
-			padding: 0;
-			margin: 0;
+			padding: 0 auto;
+			margin: 0 auto;
 			text-align: center;
 	}
 
 	.galleryBOX-image{
-			cursor:pointer;
+			cursor: pointer;
 			position: relative;
 			display: block;
 	}
@@ -226,14 +234,13 @@
 	   		 top: 0; right: 0;
 	   		 bottom: 0; left: 0;
 	   		 width: 100%;
-
 	   		 text-align: center;
 	   		 background-color: rgba(0,0,0,0.8);
 	   		 opacity: 0;
 	   		 -webkit-transition: opacity 0.6s;
 	   		 -moz-transition: opacity 0.6s;
 	   		 transition: opacity 0.6s;
-       		vertical-align:middle;
+	   		 vertical-align:middle;
 
 	}
 
@@ -252,7 +259,7 @@
             font-family: 'Raleway', sans-serif;
             color: #3D3840;
             font-size: 5em;
-            line-height: 512px;
+            line-height: 50%;
 	}
 
 	.smallUNDER
@@ -281,8 +288,8 @@
 <h1>CHYU LABS</h1>
 
     <!-- Icons -->
-      <a href="./searching_formal.html"><i class="fa fa-search"></i></a>
-      <a href="./cart.html"><i class="fa fa-shopping-cart"></i></a>
+      <i class="fa fa-search"></i></a>
+      <a href="./cart.html"><i class="fa fa-shopping-cart"></i>
       <a href="./login.html"><i class="fa fa-user"></i></a>
       
      <nav>
@@ -298,11 +305,9 @@
 
 <div class="flex bigBox">
 
-	<div class="gallery"><div class="gallery-image">
 		<div class="bigGreen">
 			<img src="bigIMG.jpeg" alt=""></div>
-	<div class="gallery-text"> 
-				<h1> LOOKBOOK </h1> </div> </div> </div> 
+ 
 
 
 	<div class="galleryBOX"><div class="galleryBOX-image">
@@ -310,18 +315,17 @@
 		<img src="leftIMG.jpeg" /> 
 		</div>
 	<div class="galleryBOX-text"> 
-	<h1>
-	<a style="color: inherit" href="searching_casual.html">CASUAL</a></h1>
-
+		<h1><a style="color: #DDCAE5;" href="searching_casual.html">CASUAL</a></h1>
 	</div> 
-	</div></div> 
+	</div>
+	</div> 
 
 
 <div class="galleryBOX"><div class="galleryBOX-image">
 	<div class="smallBlue"><img src="rightIMG.jpeg" alt=""></div>
 		<div class="galleryBOX-text"> 
 			<h1> 
-			<a style="color:inherit" href="searching_formal.html">FORMAL</a> 
+			<a style="color: #DDCAE5;" href="searching_formal.html">FORMAL</a> 
 			</h1> </div> </div> </div> 
 
 </div>
@@ -345,17 +349,18 @@
 </div>
 
 
-
-
-<div class="footer"> 
-      <nav>
-      <a href="AboutUs.html"> About us </a> |
-      <a href="instagram.com"> <i class="fa fa-instagram"></i> INSTAGRAM </a> | 
-      <a href="facebook.com"> <i class="fa fa-facebook"></i>   FACEBOOK </a> |
-      <a href="twitter.com"> <i class="fa fa-twitter"> </i>    TWITTER</a> | 
-      <a href="hotmail.com"> <i class="fa fa-envelope"> </i>   CONTACT US </a> 
-      </nav>
-</div>
+    <footer>
+        <div class="footer"> 
+        
+        <a href="https://www.instagram.com/chyulabs/" target="_blank"> <i class="fa fa-instagram"></i> INSTAGRAM </a> | 
+        <a href="https://www.facebook.com/Chyulabs" target="_blank"> <i class="fa fa-facebook"></i>
+           FACEBOOK </a> |
+        <a href="https://twitter.com/ChyuLab" target="_blank"> <i class="fa fa-twitter"> </i>
+           TWITTER</a> | 
+        <a href="mailto:iam@christianbondoc.com"> <i class="fa fa-envelope"> </i>
+           CONTACT US </a> 
+    </div>
+    </footer>
 </div>
 
 
