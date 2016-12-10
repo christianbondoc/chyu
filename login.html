@@ -13,7 +13,10 @@
         @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
         @import url('https://fonts.googleapis.com/css?family=Raleway');
         
-        /* 800px or more */
+        body {
+            display: block;
+            margin: 0px;
+        }
       
         a {
             color: #3d3840;
@@ -43,7 +46,7 @@
                 .header a:hover
         {
             color:white;
-
+            
         }
 
         .header i
@@ -75,23 +78,26 @@
         }  
         .footer 
         {
-        position: fixed;
-        margin: 0 auto;
-        text-align: center;
-        bottom: 0px;
-        background-color: #DDCAE5;
-        width: 100%;
-        font-size: 1.1em;
-        font-family: 'Raleway', sans-serif;
-        clear: both;
-        padding-top: 2px;
-        overflow: hidden;  
+            position: fixed;
+            margin: 0 auto;
+            text-align: center;
+            bottom: 0px;
+            background-color: #DDCAE5;
+            width: 100%;
+            font-family: 'Raleway', sans-serif;
+            clear: both;
+            padding-top: 15px;
+            overflow: hidden;  
+        }
+        .footer p {
+            font-size: 0.8em;
         }
         .footer a 
         {
             color: black;
             text-decoration: none;
             position: relative;
+            font-size: 1.1em;
         }
         .footer a:hover
         {
@@ -101,6 +107,7 @@
         
         #form-main{
 	width:100%;
+    
 	float:left;
 	padding-top:0px;
 }
@@ -302,6 +309,7 @@
            TWITTER</a> | 
         <a href="mailto:iam@christianbondoc.com"> <i class="fa fa-envelope"> </i>
            CONTACT US </a> 
+        <p>Copyright (C) 2016. All rights reserved.</p>
     </div>
     </footer>
 
