@@ -11,68 +11,77 @@
         @import url('https://fonts.googleapis.com/css?family=Nothing+You+Could+Do');
         @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
         @import url('https://fonts.googleapis.com/css?family=Raleway');
-        
-        body {
-            display: block;
-            margin: 0px;
-        }
-      
-        a {
-            color: #3d3840;
-            text-decoration: none;
-        }
-       .header 
-		{
-			background: #DDCAE5;
-			position: relative;
-			top: -20px;
-			font-family: 'Nothing You Could Do', cursive;
-			color: #3D3840;
-			margin: 0 auto;
-			padding: 0 auto;
-			text-align: right;
-            font-size: 1.5em;
-            top: -33px;
-            width: 100%;
-		}
-		
-        .header a
-		{
-			color: black;
-			text-decoration: none;
-			position: relative;
-            font-family: 'Raleway', sans-serif;
-            font-size: 1em;
-		}
-		.header i
-		{
-			color: black;
-			text-decoration: none;
-			position: relative;
-			top: -10px;
-		}
-		.header img 
-		{
-			float: left;
-			width: 120px;
-			height: 150px;
-			padding-top: 5px;
-			padding-left: 5px;
-		}
-      
-		.header h1
-		{
-			
-			padding: 0 auto;
-			border: 0 auto;
-			position: relative;
-			right: 2px;
-		}
-        .header a:hover
+ body {
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+
+      }
+
+      .wrap {
+        max-width: 1140px;
+        width: 95%;
+        margin: 0 auto;
+      }
+
+      .flex {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+      }
+
+      h2 {
+        margin: 10px 0;
+      }
+
+      p {
+        margin: 0;
+      }
+
+      header {
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background-color: #ddcce3;
+        -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+        z-index: 999;
+      }
+
+      header .flex {
+        height: 80px;
+      }
+
+      header img {
+        height: 70px;
+      }
+
+      header a {
+        color: black;
+        text-decoration: none;
+      }
+
+      header a:hover {
+        color: white;
+      }
+
+      ul li {
+        list-style-type: none;
+        display: inline;
+        margin: 0 5px;
+      }
+
+
+        a
         {
-            color:white;
+            text-decoration: none;
+            color: black;
         }
-        
         
         
         
@@ -83,42 +92,21 @@
             margin-left: 5%;
             margin-top: 5%;
             font-family: 'Raleway', sans-serif;
-        } 
+            text-align: left;
+        }
         #catalog a:hover
         {
             color: #DDCAE5;
             font-weight: bold;
-        }
-        #pictures {
-            width: 70%;
-            display: inline-block;
-            font-family: 'Raleway', sans-serif;
-            font-size: 25px;
-            font-weight: bold;
-        }
-        #pictures img {
-            width: 250px;
-            height: 300px;
-        }
-        .gallery {
-            text-align: center;
-            float:left;
-            margin: 3%;
-        }
-        
-        #pagenumber {
-            clear: both;
-            text-align: center;   
-        }
-        
-        #pagenumber p {
-            letter-spacing: 3em;
-        }
-        #pagenumber a {
+        } 
+        #catalog a
+        {
+            text-decoration-style: none;
+            color: black;
             text-decoration: none;
         }
-        
-                .footer 
+
+        .footer 
         {
             position: relative;
             margin: 0 auto;
@@ -147,40 +135,57 @@
             font-weight: bold;
         }
         
+        
+
+        #pictures {
+            width: 70%;
+            display: inline-block;
+            font-family: 'Raleway', sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+        }
+        #pictures img {
+            width: 250px;
+            height: 300px;
+        }
+        .gallery {
+            text-align: center;
+            float:left;
+            margin: 3%;
+        }
     </style>
     
 </head>
 <body>
     <header>
-    <!-- HEADER STUFF -->
-<div class="header">
-<header>
-<a href="./index.html">
-<img src="logo_01.png" alt="">
-</a>
-
-    <h1>CHYU LABS</h1>
-
-	<!-- Icons -->
-        <i class="fa fa-search"></i>
-        <a href="./cart.html"><i class="fa fa-shopping-cart"></i></a>
-        <a href="./login.html"><i class="fa fa-user"></i></a>
-
-    <nav>
-        <a href="./index.html">Home</a> / 
-        <strong><a href="./searching_formal.html">Formal</a></strong> /
-        <a href="./searching_casual.html">Casual</a> /
-        <a href="./searching_tops.html">Tops</a> /
-        <a href="./searching_bottoms.html">Bottoms</a> /
-        <a href="./searching_accessaries.html">Accessories</a>
-    </nav>
+    <div class="wrap">
+      <div class="flex">
+          <a href="./index.html">
+          <img src="logo_01.png" alt="Logo"></a>
+        <nav>
+          <ul>
+            <strong><li><a href="./searching_formal.html">Formal</a></li></strong>
+            <li><a href="./searching_Casual.html">Casual</a></li>
+            <li><a href="./searching_tops.html">Tops</a></li>
+            <li><a href="./searching_bottoms.html">Bottoms</a></li>
+            <li><a href="./searching_accessaries.html">Accessories</a></li>
+          </ul>
+        </nav>
+        <ul class="icons">
+          <li>  <i class="fa fa-search" aria-hidden="true"></i> </li>
+          <li><a href="./cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+          
+          <li><a href="./login.html"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
     </div>
-	<!-- END OF HEADERSTUFF -->
-    </header>    
+  </header>
+    <br> <br> <br> <br>  
     
     
     <div id="catalog">
-        <strong><a href="./searching_formal.html">Formal</a></strong><br>
+
+        <strong><a href="./searching_formal.html">Formal</a><br></strong>
         <a href="./searching_tops.html">Tops</a><br>
         <a href="./searching_bottoms.html">Bottoms</a><br>
         <a href="./searching_accessaries.html">Accessories</a><br>

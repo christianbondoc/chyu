@@ -13,78 +13,88 @@
         @import url('https://fonts.googleapis.com/css?family=Dancing+Script');
         @import url('https://fonts.googleapis.com/css?family=Raleway');
         
-        body {
-            display: block;
-            margin: 0px;
-        }
-        
-        a {
-            color: #3d3840;
-            text-decoration: none;
-        }
+  body {
+        font-family: 'Raleway', sans-serif;
+        text-align: center;
+        margin: 0 auto;
+      }
 
-        .header 
-        {
-            background: #DDCAE5;
-            position: relative;
-            font-family: 'Raleway', sans-serif;
-            color: #3D3840;
-            margin: 0 auto;
-            padding: 0 auto;
-            text-align: right;
-            font-size: 1.5em;
-            top: -33px;
-            width: 100% !important;
+      .wrap {
+        max-width: 1140px;
+        width: 95%;
+        margin: 0 auto;
+      }
 
-        }
-        .header a
-        {
-            color: black;
-            text-decoration: none;
-            position: relative;
+      .flex {
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+      }
 
-        }
-        .header a:hover
-        {
-            color: white;
-        }
+      h2 {
+        margin: 10px 0;
+      }
 
-        .header i
-        {
-            color: black;
-            text-decoration: none;
-            position: relative;
-            top: -10px;
-        }
-        
-        .header img 
-        {
-            float: left;
-            width: 120px;
-            height: 150px;
-            padding-top: 5px;
-            /*padding-left: 5px;*/
+      p {
+        margin: 0 auto;
+      }
 
-        }
-      
-    
-        .header h1
-        {
-            font-family: 'Nothing You Could Do', cursive;
-            margin-top: 30px;
-            border: 0 auto;
-            position: relative;
-            text-align: right;
-            color: #3D3840;
-        }
+      header {
+        height: 80px;
+        width: 100%;
+        position: fixed;
+        top: 0;
+        background-color: #ddcce3;
+        -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.7);
+        z-index: 999;
+      }
+
+      header .flex {
+        height: 80px;
+      }
+
+      header img {
+        height: 70px;
+      }
+
+      header a {
+        color: black;
+        text-decoration: none;
+      }
+
+      header a:hover {
+        color: white;
+      }
+
+      ul li {
+        list-style-type: none;
+        display: inline;
+        margin: 0 5px;
+      }
+          .bullet 
+    {
+        text-align: left;
+    }
+      .bullet p h3
+      {
+        text-align: left;
+      }
+ 
          #left {
              width: 40%;
              float: left;
          }
-         h2 {
+         .h2 h2 {
              font-size: 2.5em;
              font-family: 'Raleway', sans-serif;
              padding-left: 6.25%;
+             text-align: left;
 
          }
          #right {
@@ -278,34 +288,37 @@
 
 
 <body>
-<div class="header">
-<header>
+  <header>
+    <div class="wrap">
+      <div class="flex">
+          <a href="./index.html">
+          <img src="logo_01.png" alt="Logo"></a>
+        <nav>
+          <ul>
+            <li><a href="./searching_formal.html">Formal</a></li>
+            <li><a href="./searching_Casual.html">Casual</a></li>
+            <li><a href="./searching_tops.html">Tops</a></li>
+            <li><a href="./searching_bottoms.html">Bottoms</a></li>
+            <li><a href="./searching_accessaries.html">Accessories</a></li>
+          </ul>
+        </nav>
+        <ul class="icons">
+          <li>  <i class="fa fa-search" aria-hidden="true"></i> </li>
+          <li><a href="./cart.html"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a></li>
+          
+          <li><a href="./login.html"><i class="fa fa-user" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
 
-<a href="./index.html">
-<img src="logo_01.png" alt="">
-</a>
-
-<h1>CHYU LABS</h1>
-
-    <!-- Icons -->
-      <i class="fa fa-search"></i>
-      <a href="./cart.html"><i class="fa fa-shopping-cart"></i></a>
-      <a href="./login.html"><i class="fa fa-user"></i></a>
-      
-     <nav>
-        <a href="./index.html"> Home </a> / 
-        <a href="./searching_formal.html">Formal</a> /
-        <a href="./searching_casual.html">Casual</a> /
-        <a href="./searching_tops.html">Tops</a> /
-        <a href="./searching_bottoms.html">Bottoms</a> /
-        <a href="./searching_accessaries.html">Accessories</a> 
-
-    </nav>
-</header>
 </div>    
-    
-    
-    <h2>Silk Flower Dress</h2>
+
+     <br> <br> <br> <br> <br> <br>
+    <div class="h2">
+
+        <h2>Silk Flower Dress</h2>
+    </div>
 
     <div id="left">
         <div id="content-slider" class="clr">
@@ -344,25 +357,27 @@
 <div id="right">
     <div id="details">
 
-        <hr>
+        <hr> 
+        <div class="bullet">
         <h3>PRODUCT DETAILS</h3>
-        <ul>
-        <li>Dress by HIROMI Collection</li>
-        <li>Pure silk</li>
-        <li>Crew neck</li>
-        <li>Frill overlay</li>
-        <li>Zip back closure</li>
-        <li>Regular fit - true to size</li>
-        <li>Dry clean</li> 
-        </ul>
+
+        <p>Dress by HIROMI Collection</p>
+        <p>Pure silk</p>
+        <p>Crew neck</p>
+        <p>Frill overlay</p>
+        <p>Zip back closure</p>
+        <p>Regular fit - true to size</p>
+        <p>Dry clean</p> 
+
+        <br>
 
         <p>100% Silk, pretty and playful. This dress is made from a Japanese-milled fabric that hangs beautifully and has a subtle hint of luster, so it's versatile enough for day or night. 
-        </p>
+        </p> 
         
         <hr>
         
         <h3>PRODUCT PRICE</h3>
-        <p>$ 1,500</p>
+        <p>$ 1,500</p></div>
         <hr>
         
     </div>
@@ -410,9 +425,9 @@
         <div class="ease"></div>
     </div>
 </div>
+
      <footer>
         <div class="footer"> 
-        
         <a href="https://www.instagram.com/chyulabs/" target="_blank"> <i class="fa fa-instagram"></i> INSTAGRAM </a> | 
         <a href="https://www.facebook.com/Chyulabs" target="_blank"> <i class="fa fa-facebook"></i>
            FACEBOOK </a> |
